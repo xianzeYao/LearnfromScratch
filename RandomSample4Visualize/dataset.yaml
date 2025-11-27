@@ -1,0 +1,45 @@
+datasets:
+  BridgeData:
+    path: "/data/lyt/bridge_dataset/1.0.0" 
+    image_keys:
+      - steps/observation/image_0
+    instruction_keys:
+      - steps/language_instruction
+  Libero10:
+    path: "/data/lyt/LIBERO-datasets/libero_10_no_noops/1.0.0"  
+    image_keys:
+      - steps/observation/image
+    instruction_keys:
+      - steps/language_instruction
+  Liberoobject:
+    path: "/data/lyt/LIBERO-datasets/libero_object_no_noops/1.0.0"  
+    image_keys:
+      - steps/observation/image
+    instruction_keys:
+      - steps/language_instruction
+  Liberogoal:
+    path: "/data/lyt/LIBERO-datasets/libero_goal_no_noops/1.0.0" 
+    image_keys:
+      - steps/observation/image
+    instruction_keys:
+      - steps/language_instruction
+  Liberospatial:
+    path: "/data/lyt/LIBERO-datasets/libero_spatial_no_noops/1.0.0" 
+    image_keys:
+      - steps/observation/image
+    instruction_keys:
+      - steps/language_instruction
+  RT12:
+    path: "/data/nf/datasets/fractal"  
+    image_keys:
+      - steps/observation/image
+    instruction_keys:
+      - steps/observation/natural_language_instruction
+  Droid:
+    path: "/data/nf/datasets/droid100"  
+    image_keys:
+      - steps/observation/exterior_image_1_left
+    instruction_keys:
+      - steps/language_instruction
+
+output_root: "/data/nf/random4sample"  

@@ -1,0 +1,9 @@
+datasets:
+  BC-Z:
+    path: "/Users/yxz/Documents/Data/BC-Z" 
+    image_keys:
+      - steps/observation/image
+    instruction_keys:
+      - steps/observation/natural_language_instruction
+
+output_root: "/Users/yxz/Documents/Data/"  
